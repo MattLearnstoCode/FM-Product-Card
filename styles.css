@@ -6,6 +6,7 @@ body {
     background-color: hsl(30, 38%, 92%);
     width: 100%;
     height: 100vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +23,7 @@ main {
 }
 
 .image {
-    width: 50%;
+    width: 51%;
     height: 100%;
     padding: 0%;
     margin: 0;
@@ -36,7 +37,7 @@ img {
 }
 
 .description {
-    width: 50%;
+    width: 49%;
     padding: 20px;
     margin: 0;
 }
@@ -44,12 +45,19 @@ img {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    line-height: 1.5rem;
+}
+
+#preview {
+    letter-spacing: 3.5px;
+    margin-top: 10px;
 }
 
 #price {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 #sale-price {
@@ -78,7 +86,16 @@ button {
 
 h1 {
     font-family: 'Fraunces', serif;
+    margin-top: 20px;
+    /*margin-bottom: 25px;*/
+    letter-spacing: -1px;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 36px;
     margin: 0;
+    padding: 0;
 }
 .description {
     margin-left: 10px;
